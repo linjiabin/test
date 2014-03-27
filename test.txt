@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class PrintNum {
+	public static void main(String[] args) {
+		int count,i;
+		System.out.println("请输入一个自然数");
+		Scanner sc=new Scanner(System.in);
+		count=sc.nextInt();
+		for(i=0;i<=count;i++){
+			if((i%7==0)&&(i!=0))
+				System.out.print("gotit"+",");
+			else if(i%2!=0)
+				System.out.print(i+",");	
+		}
+	}
+}
+
+
+
+/*  
+*  第二题
+*/^<\s?img(\S+)(\s[^>]*)?id=\"[-]?[0-9]+\.?[0-9]*\">$/
+ */
